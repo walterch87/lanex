@@ -3,6 +3,9 @@ body {
 	background-color: LightBlue;
 }
 
+.lanex-people {
+	padding-top: 10px;
+}
 
 .lanex-people-photo {
 	/*background-color: White;*/
@@ -10,4 +13,105 @@ body {
 
 .lanex-people-info {
 	background-color: White;
+	height: 100px;
 }
+
+.lanex-image-flag {
+	width: 20px; 
+	height: 20px; 
+	margin-left: 0px; 
+	margin-top: 0px; 
+	position: relative;
+}
+
+.lanex-image-user {
+	width: 100px; 
+	height: 100px; 
+	margin-left: 0px; 
+	margin-top: 0px; 
+	position: relative;
+}
+
+.lanex-image-user-chat {
+	width: 50px; 
+	height: 50px; 
+	margin-left: 0px; 
+	margin-top: 0px; 
+	position: relative;
+}
+
+.lanex-people-info-chat {
+	background-color: White;
+	height: 50px;
+}
+
+.lanex-image-flag-chat {
+	width: 20px; 
+	height: 20px; 
+	margin-left: 0px; 
+	margin-top: 0px; 
+	position: relative;
+}
+
+.lanex-box-chat {
+	background-color: White;
+	font-size: 16pt;
+	height: 400px;
+}
+
+.lanex-message-basic-chat {
+	background-color: deepskyblue;
+	color: white;
+}
+
+.lanex-message-edit-chat {
+	background-color: gray;
+	color: white;
+}
+
+.lanex-message-edited-others-chat {
+	background-color: lightgSeaGreen;
+	color: white;
+}
+
+.lanex-message-edited-self-chat {
+	background-color: gray;
+	color: white;
+}
+
+.lanex-message-translated-chat {
+	background-color: orange;
+	color: white;
+}
+
+.lanex-input-chat {
+	background-color: White;
+	min-height: 50px;
+}
+
+.lanex-icon-box-bottom {
+	text-align: center;
+}
+
+.lanex-icon-bottom {
+	width: 48px; 
+	height: 48px; 
+}
+
+.lanex-textbox-input-chat {
+	width: 230px; 
+	height: 40px;
+	font-size: 16pt;
+}
+
+.lanex-icon-input-chat {
+	width: 35px; 
+	height: 35px; 
+}
+
+
+
+.lanex-icon-bottom-dimmed {
+	opacity: 0.3;
+}
+
