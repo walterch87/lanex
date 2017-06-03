@@ -66,26 +66,31 @@ body {
 .lanex-message-basic-chat {
 	background-color: deepskyblue;
 	color: white;
+	display:inline;
 }
 
 .lanex-message-edit-chat {
 	background-color: gray;
 	color: white;
+	display:inline;
 }
 
 .lanex-message-edited-others-chat {
 	background-color: lightgSeaGreen;
 	color: white;
+	display:inline;
 }
 
 .lanex-message-edited-self-chat {
 	background-color: gray;
 	color: white;
+	display:inline;
 }
 
 .lanex-message-translated-chat {
 	background-color: orange;
 	color: white;
+	display:inline;
 }
 
 .lanex-input-chat {
