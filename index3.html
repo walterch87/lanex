@@ -8,7 +8,7 @@
     <title>Lanex - Cross-culture language exchange community</title>
 
     <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="lanex.css" rel="stylesheet">
@@ -21,7 +21,28 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Test</h1>
+    <h3>Test</h3>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Correct message</h4>
+          </div>
+          <div class="modal-body">
+            <h6>Original Message</h6>
+            <h4 id="modal-original-message"></h4>
+            <input id="modal-corrected-message" type="text" class="form-control" placeholder="Type your corrected message kere" aria-describedby="basic-addon2">
+          </div>
+          <div class="modal-footer">
+            <button id="btn-close" type="button" class="btn btn-default">Close</button>
+            <button id="btn-correct" type="button" class="btn btn-primary">Correct</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section id="section1">
       <div class="container center-block">
@@ -32,7 +53,7 @@
             <div class="lanex-people-photo col-xs-2">
               <img class="lanex-image-user-chat" src="image/users/user_photo_01.jpg">
             </div>
-            
+
             <div class="lanex-people-info-chat col-xs-10">
               <div class="row">
                 <div class="col-xs-8">
@@ -52,24 +73,24 @@
         <div class="lanex-people">
           <div class="row">
             <div class="lanex-box-chat col-xs-10 col-xs-offset-2">
-              <div class="row">
+              <div id="chat-box" class="row">
                 <div class="col-xs-12">
                   <p class="">9:03</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="lanex-message-basic-chat">Hi, how's everything going?</p>
+                  <p class="message lanex-message-basic-chat">Hi, how's everything going?</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="lanex-message-basic-chat pull-right">si a ipsum viverra</p>
+                  <p class="message lanex-message-basic-chat pull-right">si a ipsum viverra</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="lanex-message-basic-chat pull-right">Donec scelerisque gravida diam</p>
+                  <p class="message lanex-message-basic-chat pull-right">Donec scelerisque gravida diam</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="lanex-message-translated-chat">Pellentesque ac congue nibh.</p>
+                  <p class="message lanex-message-translated-chat">Pellentesque ac congue nibh.</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="lanex-message-edited-self-chat">Vestibulum sit amet leo elit.</p>
+                  <p class="message lanex-message-edited-self-chat">Vestibulum sit amet leo elit.</p>
                 </div>
               </div>
             </div>
@@ -84,10 +105,10 @@
                 <div class="col-xs-12 form-inline">
                   <img class="lanex-icon-input-chat lanex-icon-bottom-dimmed " src="image/logos/ic_plus_black_48px.svg">
                   <img class="lanex-icon-input-chat lanex-icon-bottom-dimmed " src="image/logos/ic_photo_camera_black_48px.svg">
-                  <input type="text" class="lanex-textbox-input-chat" placeholder="Input your text here.">
+                  <input id="typein-message" type="text" class="lanex-textbox-input-chat" placeholder="Input your text here.">
                   <img class="lanex-icon-input-chat lanex-icon-bottom-dimmed" src="image/logos/ic_mic_black_48px.svg">
                 </div>
-                
+
               </div>
             </div>
           </div>
@@ -140,19 +161,19 @@
 
           <div class="col-xs-4">
             <div id="row">
-              <h2>&lt; Back</h2>
+              <h4>&lt; Back</h4>
             </div>
           </div>
 
           <div class="col-xs-6">
-            
+
           </div>
 
           <div class="col-xs-2 ">
             <div id="row">
-              <h2>
+              <h4>
                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-              </h2>
+              </h4>
             </div>
           </div>
         </div>
