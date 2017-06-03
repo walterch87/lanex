@@ -7,6 +7,10 @@ body {
 	padding-top: 10px;
 }
 
+.lanex-nav-top {
+	background-color: LightBlue;
+}
+
 .lanex-people-photo {
 	/*background-color: White;*/
 }
