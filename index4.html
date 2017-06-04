@@ -21,28 +21,7 @@
     <![endif]-->
   </head>
   <body>
-    <h3>Test</h3>
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Correct message</h4>
-          </div>
-          <div class="modal-body">
-            <h6>Original Message</h6>
-            <h4 id="modal-original-message"></h4>
-            <input id="modal-corrected-message" type="text" class="form-control" placeholder="Type your corrected message kere" aria-describedby="basic-addon2">
-          </div>
-          <div class="modal-footer">
-            <button id="btn-close" type="button" class="btn btn-default">Close</button>
-            <button id="btn-correct" type="button" class="btn btn-primary">Correct</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h1>Test</h1>
 
     <section id="section1">
       <div class="container center-block">
@@ -51,17 +30,17 @@
           <div class="row">
 
             <div class="lanex-people-photo col-xs-2">
-              <img class="lanex-image-user-chat" src="image/users/user_photo_06.jpg">
+              <img class="lanex-image-user-chat" src="image/users/user_photo_01.jpg">
             </div>
-
+            
             <div class="lanex-people-info-chat col-xs-10">
               <div class="row">
                 <div class="col-xs-8">
                   <h3>Teresa</h3>
                 </div>
                 <div class="col-xs-4">
-                  <img class="lanex-image-flag-chat" src="image/flags/United-Kingdom.png">
-                  <img class="lanex-image-flag-chat" src="image/flags/Japan.png">
+                  <img class="lanex-image-flag-chat" src="image/flags/China.png">
+                  <img class="lanex-image-flag-chat" src="image/flags/China.png">
                 </div>
               </div>
             </div>
@@ -73,24 +52,24 @@
         <div class="lanex-people">
           <div class="row">
             <div class="lanex-box-chat col-xs-10 col-xs-offset-2">
-              <div id="chat-box" class="row">
+              <div class="row">
                 <div class="col-xs-12">
                   <p class="">9:03</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="message lanex-message-basic-chat">Hi, how's everything going?</p>
+                  <p class="lanex-message-basic-chat">Hi, how's everything going?</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="message lanex-message-basic-chat pull-right">si a ipsum viverra</p>
+                  <p class="lanex-message-basic-chat pull-right">si a ipsum viverra</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="message lanex-message-basic-chat pull-right">Donec scelerisque gravida diam</p>
+                  <p class="lanex-message-basic-chat pull-right">Donec scelerisque gravida diam</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="message lanex-message-translated-chat">Pellentesque ac congue nibh.</p>
+                  <p class="lanex-message-translated-chat">Pellentesque ac congue nibh.</p>
                 </div>
                 <div class="col-xs-12">
-                  <p class="message lanex-message-edited-self-chat">Vestibulum sit amet leo elit.</p>
+                  <p class="lanex-message-edited-self-chat">Vestibulum sit amet leo elit.</p>
                 </div>
               </div>
             </div>
@@ -103,12 +82,12 @@
             <div class="lanex-input-chat col-xs-11 col-xs-offset-1">
               <div class="row">
                 <div class="col-xs-12 form-inline">
-                  <img class="lanex-icon-input-chat lanex-icon-bottom-dimmed " src="image/logos/ic_plus_black_48px.svg">
+                  <img class="lanex-icon-input-chat lanex-icon-bottom-dimmed " src="image/logos/ic_people_black_48px.svg">
                   <img class="lanex-icon-input-chat lanex-icon-bottom-dimmed " src="image/logos/ic_photo_camera_black_48px.svg">
-                  <input id="typein-message" type="text" class="lanex-textbox-input-chat" placeholder="Input your text here.">
+                  <input type="text" class="lanex-textbox-input-chat" placeholder="Input your text here.">
                   <img class="lanex-icon-input-chat lanex-icon-bottom-dimmed" src="image/logos/ic_mic_black_48px.svg">
                 </div>
-
+                
               </div>
             </div>
           </div>
@@ -148,52 +127,84 @@
               <p>Live</p>
             </div>
           </div>
+
+
+
+
+
         </div>
+        <!-- <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div> --><!--/.nav-collapse -->
       </div>
     </nav>
 
 
     <!-- Fixed navbar -->
-
-    <nav class="navbar navbar-default navbar-fixed-top lanex-nav-top">
+    <!--
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="row">
-
-          <div class="col-xs-4">
-            <div id="row">
-              <a href="index2.html"><h4>&lt; Back</h4></a>
-            </div>
-          </div>
-
-          <div class="col-xs-6">
-
-          </div>
-
-          <div class="col-xs-2 ">
-            <div id="row">
-              <h4>
-                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-              </h4>
-            </div>
-          </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+    -->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Jquery Mobile 1.4.5 -->
-    <!--
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
--->
-
-
-    <!-- Custom javascript for this template -->
-    <script src="lanex.js"></script>
   </body>
 </html>
