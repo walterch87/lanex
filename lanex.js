@@ -29,7 +29,7 @@ $(document).ready(function(){
 		if (e.which == 13) {
 			// Enter key pressed
 			var imessage = "<div class=\"col-xs-12\">";
-			imessage = imessage + "<p class=\"message lanex-message-basic-chat\">";
+			imessage = imessage + "<p class=\"message pull-right lanex-message-basic-chat\">";
 			imessage = imessage + $(this).val();
 			imessage = imessage + "</p>";
 			imessage = imessage + "</div>";
